@@ -32,7 +32,7 @@ if [ $1 == "install" ];then
 	len=$(((len-1)/2))
 	dirName=${dirName::$len}
 	if [ -z "$dirName" ];then
-	    tar xvzf ./JRE.tar.gz
+	    tar xzf ./JRE.tar.gz
 	fi
 	echo "***********************解压完成*************************"
 	#获得解压后的文件夹名称
